@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://src/battle/battle.gd" id="1_battle"]
+[ext_resource type="Resource" path="res://data/squads/squad_red_test.tres" id="2_red"]
+[ext_resource type="Resource" path="res://data/squads/squad_blue_test.tres" id="3_blue"]
+[ext_resource type="Script" path="res://src/ui/battle_result_label.gd" id="4_result"]
+
+[node name="Battle" type="Node2D"]
+position = Vector2(576, 324)
+script = ExtResource("1_battle")
+squads = [ExtResource("2_red"), ExtResource("3_blue")]
+
+[node name="Units" type="Node2D" parent="."]
+unique_name_in_owner = true
+y_sort_enabled = true
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="ResultLabel" type="Label" parent="UI" node_paths=PackedStringArray("battle")]
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 40.0
+offset_bottom = 80.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+script = ExtResource("4_result")
+battle = NodePath("../..")

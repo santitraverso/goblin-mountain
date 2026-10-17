@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SquadData" format=3]
+
+[ext_resource type="Script" path="res://src/battle/squad_data.gd" id="1_squad"]
+[ext_resource type="Resource" path="res://data/tribes/tribe_blue.tres" id="2_tribe"]
+[ext_resource type="Resource" path="res://data/goblins/goblin_basic_stats.tres" id="3_stats"]
+
+[resource]
+script = ExtResource("1_squad")
+tribe = ExtResource("2_tribe")
+goblin_stats = ExtResource("3_stats")
+goblin_count = 5
