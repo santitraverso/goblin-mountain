@@ -1,42 +1,43 @@
-# GhostRun — Game Design Document
+# Goblin Mountain — Game Design Document
 
 > Documento vivo. Se completa y se ajusta a medida que el juego avanza.
 > Las secciones marcadas con _(TBD)_ todavía no están definidas.
 
 **Versión:** 0.1
-**Última actualización:** YYYY-MM-DD
+**Última actualización:** 2026-10-17
 
 ---
 
 ## 1. Resumen
 
-- **Concepto en una frase:** _(TBD)_
-- **Género:** _(TBD)_
-- **Perspectiva / dimensión:** _(2D / 3D, cámara lateral, top-down, tercera persona…)_
-- **Plataforma(s):** _(PC, web, mobile…)_
-- **Público objetivo:** _(TBD)_
-- **Referencias / inspiraciones:** _(juegos, películas, estilos)_
+- **Concepto en una frase:** _Six Goblin Tribes fight for control of the Sacred Mountain_
+- **Género:** _Autochess, Deckbuilder_
+- **Perspectiva / dimensión:** _2D Isometric_
+- **Plataforma(s):** _PC, Web_
+- **Público objetivo:** _Any_
+- **Referencias / inspiraciones:** _Despot's Game, Hearthstone Battlegrounds_
 
 ## 2. Pilares de diseño
 
 Las 2–4 ideas que guían todas las decisiones. Si algo no aporta a un pilar, se cuestiona.
 
-1. _(TBD)_
-2. _(TBD)_
-3. _(TBD)_
+1. _Build your Base and Deck_
+2. _Get a Random Amount of Goblins to Fight_
+3. _Fight in the Mountain Against the other Tribes_
 
 ## 3. Gameplay
 
 ### 3.1 Loop principal
-_¿Qué hace el jugador minuto a minuto? (ej: correr → esquivar → juntar → repetir)_
+_Build your base with Resources. The Base gives you Cards to add to your Deck. It also gives you Goblins to send fightning. Send the Goblins to the Mountain. Supervise the Battle. Gain Resources. Return to your Base._
 
 ### 3.2 Objetivo
-_¿Cómo se gana? ¿Cómo se pierde? ¿Es infinito o tiene final?_
+_Defeating the Tribes let's you attack their Bases. Destroy all their Bases or reach the Top of the Mountain to Win._
 
 ### 3.3 Mecánicas
 | Mecánica | Descripción | Prioridad (MVP / después) |
 |----------|-------------|---------------------------|
-|          |             |                           |
+|   Base Building    |  Create a Base with different Buildings that give you Resources, Cards and Goblins.           |                           |
+|   Fight    |  Send your Goblins to the Mountain to fight automatically. You can play cards to Boost Goblins, or Damage them, or more.   |                           |
 
 ### 3.4 Controles
 | Acción | Teclado/Mouse | Gamepad |
@@ -78,7 +79,9 @@ _¿Cómo se gana? ¿Cómo se pierde? ¿Es infinito o tiene final?_
 ## 9. Alcance
 
 ### MVP (lo mínimo jugable)
-- [ ] _(TBD)_
+- [ ] _Create a Base with different buildings_
+- [ ] _Get Resources, Cards and Goblins from your Base_
+- [ ] _Goblins fight automatically, Player can play cards and Command Goblins_
 
 ### Después del MVP
 - [ ] _(TBD)_
